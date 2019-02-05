@@ -44,7 +44,18 @@ a::selection{
 a:visited{
   text-decoration: none
 }
-
+a{
+  color: #7aa4ff;
+  margin-left: 10px
+}
+.email{
+  color: #7aa4ff;
+  margin-left: 10px
+}
+.phone{
+  color: #7aa4ff;
+  margin-left: 10px
+}
 .links{
   margin-left: 15%;
 }
@@ -172,6 +183,13 @@ clip-path: polygon(50% 5%, 100% 0, 100% 100%, 0 100%, 0 0);
   text-align: left;
   margin-left: 10%;
   margin-top: 50px;
+}
+.skills{
+  margin-bottom: 400px
+}
+.contactInfo{
+  display: flex;
+  flex-direction: row
 }
 @keyframes slideInFromTop {
   0% {

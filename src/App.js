@@ -171,8 +171,8 @@ class App extends Component {
               <div className="contact-list">
               <h3 className="title3">Contact Me</h3>
               <div className="contacts">
-                <div className="contactInfo">Phone: (208) 201-1999</div>
-                <div className="contactInfo">Email: jaredchoatepro@gmail.com</div>
+                <div className="contactInfo">Phone: <div className="phone"> (208) 201-1999</div></div>
+                <div className="contactInfo">Email: <div className="email">jaredchoatepro@gmail.com</div></div>
                 <div className="contactInfo">LinkedIn: <a href="https://www.linkedin.com/in/jaredchoatepro/">linkedin.com/in/jaredchoatepro</a></div>
                 <div className="contactInfo">Github: <a href="https://github.com/jcchoate">github.com/jcchoate</a></div>
               </div>
