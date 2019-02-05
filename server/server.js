@@ -3,7 +3,7 @@ const app = express();
 
 app.use(express.json());
 
-app.use(express.static(__dirname+'/../build'))
+app.use( express.static( `${__dirname}/../build` ) )
 
 app.listen(4100,()=>{
     console.log(`4100 tiny robots doing your bidding.`)
