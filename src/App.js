@@ -136,18 +136,6 @@ class App extends Component {
             <h3 className="title3 skilltitle">My Projects</h3>
             </ScrollableAnchor>
             <div className="project-list">
-              <MicrolinkCard
-                url='https://www.jaredchoatepro.com'
-                size='large'
-              />
-              <MicrolinkCard
-                url='http://lifelensestudios.blogspot.com/'
-                size='large'
-                />
-              {/* <MicrolinkCard
-              url='https://www.jaredchoatepro.com'
-              size='large'
-            /> */}
             </div>
             <div className="appleproject">
               <h4 className="appletitle">Apple Clone</h4>
