@@ -135,7 +135,7 @@ class App extends Component {
 
         <div className="project-section">
           <ScrollableAnchor id={'projects'}>
-            <h3 className="title3 skilltitle">My Projects</h3>
+            <h3 className="title3 skilltitle woohoo">My Projects</h3>
           </ScrollableAnchor>
           <div className="project-list">
           </div>
@@ -159,7 +159,7 @@ class App extends Component {
                   <a href="https://github.com/jcchoate/PersonalProject">
                     <img className="githublogo" src={github} alt="github logo" />
                   </a>
-                  <a href="http://home.jaredchoatepro.com">
+                  <a href="http://pineapple.jaredchoatepro.com">
                     <img className="githublogo" src={internet} alt="internet icon" />
                   </a>
                 </div>

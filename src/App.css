@@ -24,7 +24,10 @@ body{
 .title3.skilltitle{
   color: whitesmoke;
   margin-top: 0;
-  margin-bottom: 0
+  margin-bottom: 50px
+}
+.title3.skilltitle.woohoo{
+  margin-bottom: -50px
 }
 .navigation{
   display: flex;
