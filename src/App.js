@@ -19,6 +19,8 @@ import apple1 from './Screen Shot 2019-01-22 at 14.47.44.png'
 import apple2 from './Screen Shot 2019-01-22 at 14.48.05.png'
 import apple3 from './Screen Shot 2019-01-22 at 14.49.54.png'
 import ScrollableAnchor from 'react-scrollable-anchor'
+import github from './_ionicons_svg_logo-github.svg'
+import internet from './_ionicons_svg_md-globe.svg'
 
 import './App.css';
 
@@ -131,44 +133,52 @@ class App extends Component {
           </div>
         </div>
 
-          <div className="project-section">
-        <ScrollableAnchor id={'projects'}>
+        <div className="project-section">
+          <ScrollableAnchor id={'projects'}>
             <h3 className="title3 skilltitle">My Projects</h3>
-            </ScrollableAnchor>
-            <div className="project-list">
-            </div>
-            <div className="appleproject">
-              <h4 className="appletitle">Apple Clone</h4>
-              <div className="applewrap">
-                <Carousel>
-                  <Carousel.Item>
-                    <img width={1200} alt="900x500" src={apple1} />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img width={1200} alt="900x500" src={apple2} />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img width={1200} alt="900x500" src={apple3} />
-                  </Carousel.Item>
-                </Carousel>
-                <div className="project-info">
-                  <h4>This project was made to be a clone of apple.com and was made using React.js for the front-end, Node.js and Express for the back-end, and the database is run by PostreSQL. The functionality of the cart allows a user to add items to the cart, update quantity, and place an order. All orders are then stored in the database with the user's id using Sessions, and all orders specific to that user are then available to see. This taught me a lot about planning, focus, and making sure the MVP is done when it needs to be done.</h4>
+          </ScrollableAnchor>
+          <div className="project-list">
+          </div>
+          <div className="appleproject">
+            <h4 className="appletitle">Apple Clone</h4>
+            <div className="applewrap">
+              <Carousel>
+                <Carousel.Item>
+                  <img width={1200} alt="900x500" src={apple1} />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img width={1200} alt="900x500" src={apple2} />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img width={1200} alt="900x500" src={apple3} />
+                </Carousel.Item>
+              </Carousel>
+              <div className="project-info">
+                <h4>This project was made to be a clone of apple.com and was made using React.js for the front-end, Node.js and Express for the back-end, and the database is run by PostreSQL. The functionality of the cart allows a user to add items to the cart, update quantity, and place an order. All orders are then stored in the database with the user's id using Sessions, and all orders specific to that user are then available to see. This taught me a lot about planning, focus, and making sure the MVP is done when it needs to be done.</h4>
+                <div className="logocontainer">
+                  <a href="https://github.com/jcchoate/PersonalProject">
+                    <img className="githublogo" src={github} alt="github logo" />
+                  </a>
+                  <a href="http://home.jaredchoatepro.com">
+                    <img className="githublogo" src={internet} alt="internet icon" />
+                  </a>
                 </div>
               </div>
-              <ScrollableAnchor id={'contact'}>
-              <div className="contact-list">
-              <h3 className="title3">Contact Me</h3>
-              <div className="contacts">
-                <div className="contactInfo">Phone: <div className="phone"> (208) 201-1999</div></div>
-                <div className="contactInfo">Email: <div className="email">jaredchoatepro@gmail.com</div></div>
-                <div className="contactInfo">LinkedIn: <a href="https://www.linkedin.com/in/jaredchoatepro/">linkedin.com/in/jaredchoatepro</a></div>
-                <div className="contactInfo">Github: <a href="https://github.com/jcchoate">github.com/jcchoate</a></div>
-              </div>
-              </div>
-              </ScrollableAnchor>
             </div>
-
+            <ScrollableAnchor id={'contact'}>
+              <div className="contact-list">
+                <h3 className="title3">Contact Me</h3>
+                <div className="contacts">
+                  <div className="contactInfo">Phone: <div className="phone"> (208) 201-1999</div></div>
+                  <div className="contactInfo">Email: <div className="email">jaredchoatepro@gmail.com</div></div>
+                  <div className="contactInfo">LinkedIn: <a href="https://www.linkedin.com/in/jaredchoatepro/">linkedin.com/in/jaredchoatepro</a></div>
+                  <div className="contactInfo">Github: <a href="https://github.com/jcchoate">github.com/jcchoate</a></div>
+                </div>
+              </div>
+            </ScrollableAnchor>
           </div>
+
+        </div>
 
       </div>
     );

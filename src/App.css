@@ -191,6 +191,15 @@ clip-path: polygon(50% 5%, 100% 0, 100% 100%, 0 100%, 0 0);
   display: flex;
   flex-direction: row
 }
+.githublogo{
+  width: 50px
+}
+.logocontainer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  justify-content: center
+}
 @keyframes slideInFromTop {
   0% {
     transform: translateY(-200%);
