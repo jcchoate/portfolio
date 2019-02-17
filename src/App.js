@@ -21,6 +21,10 @@ import apple3 from './Screen Shot 2019-01-22 at 14.49.54.png'
 import ScrollableAnchor from 'react-scrollable-anchor'
 import github from './_ionicons_svg_logo-github.svg'
 import internet from './_ionicons_svg_md-globe.svg'
+import trasset1 from './Screen Shot 2019-02-16 at 12.08.47.png'
+import trasset2 from './Screen Shot 2019-02-16 at 12.11.24.png'
+import trasset3 from './Screen Shot 2019-02-16 at 12.11.50.png'
+import trasset4 from './Screen Shot 2019-02-16 at 12.12.50.png'
 
 import './App.css';
 
@@ -154,12 +158,42 @@ class App extends Component {
                 </Carousel.Item>
               </Carousel>
               <div className="project-info">
-                <h4>This project was made to be a clone of apple.com and was made using React.js for the front-end, Node.js and Express for the back-end, and the database is run by PostreSQL. The functionality of the cart allows a user to add items to the cart, update quantity, and place an order. All orders are then stored in the database with the user's id using Sessions, and all orders specific to that user are then available to see. This taught me a lot about planning, focus, and making sure the MVP is done when it needs to be done.</h4>
+                <h4>The functionality of the cart allows a user to add items to the cart, update quantity, and place an order. All orders are then stored in the database with the user's id using Sessions, and all orders specific to that user are then available to see. This taught me a lot about planning, focus, and making sure the MVP is done when it needs to be done.</h4>
+                <h4>Tech stack: React, JavaScript, Node, Express, Sessions, PostgreSQL</h4>
                 <div className="logocontainer">
                   <a href="https://github.com/jcchoate/PersonalProject">
                     <img className="githublogo" src={github} alt="github logo" />
                   </a>
-                  <a href="http://pineapple.jaredchoatepro.com">
+                  <a href="https://pineapple.jaredchoatepro.com">
+                    <img className="githublogo" src={internet} alt="internet icon" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <h4 className="appletitle">Trassets (personal finance tracker)</h4>
+            <div className="applewrap">
+              <Carousel>
+                <Carousel.Item>
+                  <img width={1200} alt="900x500" src={trasset1} />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img width={1200} alt="900x500" src={trasset2} />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img width={1200} alt="900x500" src={trasset3} />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img width={1200} alt="900x500" src={trasset4} />
+                </Carousel.Item>
+              </Carousel>
+              <div className="project-info">
+                <h4>This project was made to help users track their financial patterns and easily see their financial growth. This app will help them visualize and easily see how to better their finances. It allows them to make calculated goals and easily see progress towards these goals.</h4>
+                <h4>Tech stack: React, JavaScript, Node, Express, Sessions, Plotly.js, Nodemailer</h4>
+                <div className="logocontainer">
+                  <a href="https://github.com/team-awesome99999/personal-finance">
+                    <img className="githublogo" src={github} alt="github logo" />
+                  </a>
+                  <a href="https://trassets.jaredchoatepro.com">
                     <img className="githublogo" src={internet} alt="internet icon" />
                   </a>
                 </div>

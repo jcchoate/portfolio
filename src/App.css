@@ -171,6 +171,10 @@ clip-path: polygon(50% 5%, 100% 0, 100% 100%, 0 100%, 0 0);
   padding-right: 20%;
   margin-top: 50px
 }
+.carousel-control.left, .carousel-control.right {
+  background-image:none !important;
+  filter:none !important;
+}
 .contact-list{
   display: flex;
   flex-direction: column;
