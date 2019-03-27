@@ -25,6 +25,10 @@ import trasset1 from './Screen Shot 2019-02-16 at 12.08.47.png'
 import trasset2 from './Screen Shot 2019-02-16 at 12.11.24.png'
 import trasset3 from './Screen Shot 2019-02-16 at 12.11.50.png'
 import trasset4 from './Screen Shot 2019-02-16 at 12.12.50.png'
+import laravel from './laravel.png'
+import php from './php.png'
+import gatsby from './gatsby.png'
+import mysql from './myrealsql.png'
 
 import './App.css';
 
@@ -73,8 +77,8 @@ class App extends Component {
           <ScrollableAnchor id={'skills'}>
             <h3 className="title3 skilltitle">My Skills</h3>
           </ScrollableAnchor>
-
-          <div className="logos">
+          {/********************** ADOBE SOFTWARE **********************************************/}
+          <div className="logos" id="ADOBE">
             <div>
               <img className="logosimg" src={photoshop} alt="photoshop logo" />
               <p>Photoshop</p>
@@ -93,34 +97,36 @@ class App extends Component {
             </div>
 
           </div>
-
-          <div className="logos">
+          {/****************************** FRAMEWORKS ******************************************/}
+          <div className="logos" id='FRAMEWORKS'>
+            <div>
+              <img className="logosimg" src={laravel} alt="laravel" />
+              <p>Laravel</p>
+            </div>
 
             <div>
               <img className="logosimg" src={reacticon} alt="react" />
               <p>React</p>
+            </div>
 
-            </div>
-            <div>
-              <img className="logosimg" src={redux} />
-              <p>Redux</p>
-            </div>
             <div>
               <img className="logosimg" src={vue} alt="vue logo" />
               <p>Vue</p>
             </div>
             <div>
-              <img className="logosimg" src={js} alt="javascript" />
-              <p>Javascript</p>
-
+              <img className="logosimg" src={gatsby} alt="gatsby logo" />
+              <p>Gatsby</p>
             </div>
-
           </div>
-
+          {/******************************** LANGUAGES *********************************/}
           <div className="logos">
             <div>
-              <img className="logosimg" src={node} alt="node" />
-              <p>Node</p>
+              <img className="logosimg" src={js} alt="javascript" />
+              <p>Javascript</p>
+            </div>
+            <div>
+              <img className="logosimg" src={php} />
+              <p>PHP</p>
             </div>
             <div>
               <img className="logosimg" src={html} alt="html" />
@@ -130,9 +136,24 @@ class App extends Component {
               <img className="logosimg" src={css} alt="css" />
               <p>CSS</p>
             </div>
+          </div>
+          {/*********************************** EXTRAS *************************************/}
+          <div className="logos">
+            <div>
+              <img className="logosimg" src={node} alt="node" />
+              <p>Node</p>
+            </div>
+            <div>
+              <img className="logosimg" src={redux} />
+              <p>Redux</p>
+            </div>
             <div>
               <img className="logosimg" src={postgres} alt="postgresql" />
               <p>PostgreSQL</p>
+            </div>
+            <div>
+              <img className="logosimg" src={mysql} alt="postgresql" />
+              <p>MySQL</p>
             </div>
           </div>
         </div>
