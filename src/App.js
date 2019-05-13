@@ -29,6 +29,8 @@ import laravel from './laravel.png'
 import php from './php.png'
 import gatsby from './gatsby.png'
 import mysql from './myrealsql.png'
+import tlaunch1 from './Screen Shot 2019-05-13 at 14.37.52.png'
+import tlaunch2 from './Screen Shot 2019-05-13 at 14.38.28.png'
 
 import './App.css';
 
@@ -59,9 +61,9 @@ class App extends Component {
         </ScrollableAnchor>
         <div className="titlepage">
           <h1>Jared Choate</h1>
-          <h3>Full-stack Web Developer</h3>
+          <h3>Full-stack Software Engineer</h3>
+          <h3>Product Manager</h3>
           <h3>Graphic Designer</h3>
-          <h3>Photographer</h3>
         </div>
         <ScrollableAnchor id={'about'}>
           <div className="aboutme">
@@ -165,6 +167,26 @@ class App extends Component {
           <div className="project-list">
           </div>
           <div className="appleproject">
+          <h4 className="appletitle">tLaunch</h4>
+            <div className="applewrap">
+              <Carousel>
+                <Carousel.Item>
+                  <img width={1200} alt="900x500" src={tlaunch1} />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img width={1200} alt="900x500" src={tlaunch2} />
+                </Carousel.Item>
+              </Carousel>
+              <div className="project-info">
+                <h4>The purpose was to provide a robust platform for companies who are looking to fill positions. The app allows an owner to create a team to help the recruiting process. Recruiters will be invited to join the team where they can finish inviting. They will interview candidates and send them to interviewers. Candidates will be rated based on their interviews and the company will have the option to contract the candidate, filling the position.</h4>
+                <h4>Tech stack: Laravel, PHP, Vue.js, MySQL</h4>
+                <div className="logocontainer">
+                  <a href="https://tlaunch.com">
+                    <img className="githublogo" src={internet} alt="internet icon" />
+                  </a>
+                </div>
+              </div>
+            </div>
             <h4 className="appletitle">Apple Clone</h4>
             <div className="applewrap">
               <Carousel>
