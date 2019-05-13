@@ -67,7 +67,7 @@ class App extends Component {
           <div className="aboutme">
             <h3 className="title3">About Me</h3>
             <div className="aboutwrap">
-              <h4 className="abouttext">My name is Jared Choate, and I am a Full-stack Web Developer. I am from northern California and am currently living in Utah. I enjoy doing many things, but mainly spending time with my wife. We like driving and exploring the mountains.<br /><br /> After taking some classes in HTML and CSS, I found my liking for Web Development. However, I was in school for a different career path. After a time I realized that I was not happy and decided to make a change in my life. I attended DevMountain where I gained the skills I needed to become something I enjoy being. Today I am a husband, a family-man, and a Web Developer. </h4>
+              <h4 className="abouttext">My name is Jared Choate, and I am a Full-stack Web Developer. I am from northern California and currently living in Utah. I enjoy doing many things, but mainly spending time with my wife. We like driving and exploring the mountains.<br /><br /> After deciding to make a change in my life/career path, I attended DevMountain where I learned the skills necessary to be valuable. Since then, my life has changed. I'm currently a Quality Assurance Engineer / Product Manager for DevSquad.  </h4>
               <img className="pic" src={pic} alt="Me" />
             </div>
           </div>
