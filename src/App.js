@@ -17,9 +17,9 @@ import flash from './adobeflash.png'
 import vue from './vuelogo.png'
 import blazor from './BrandBlazor_nohalo_1000x.png'
 import csharp from './csharp.png'
-import dlm1 from '.Screen Shot 2020-03-31 at 11.02.54.png'
-import dlm2 from '.Screen Shot 2020-03-31 at 11.03.24.png'
-import dlm3 from '.Screen Shot 2020-03-31 at 11.04.21.png'
+import dlm1 from './Screen Shot 2020-03-31 at 11.02.54.png'
+import dlm2 from './Screen Shot 2020-03-31 at 11.03.24.png'
+import dlm3 from './Screen Shot 2020-03-31 at 11.04.21.png'
 import dotnet from './1024px-.NET_Core_Logo.svg.png'
 import apple1 from './Screen Shot 2019-01-22 at 14.47.44.png'
 import apple2 from './Screen Shot 2019-01-22 at 14.48.05.png'
@@ -179,7 +179,7 @@ class App extends Component {
             </div>
           </div>
         </div>
-
+        {/*********************************** PROJECTS *************************************/}
         <div className="project-section">
           <ScrollableAnchor id={'projects'}>
             <h3 className="title3 skilltitle woohoo">My Projects</h3>
@@ -192,23 +192,18 @@ class App extends Component {
             <div className="applewrap">
               <Carousel>
                 <Carousel.Item>
-                  <img width={1200} alt="900x500" src={dlm1} />
+                  <img className="carousel-image"  alt="900x500" src={dlm1} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width={1200} alt="900x500" src={dlm2} />
+                  <img className="carousel-image"  alt="900x500" src={dlm2} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width={1200} alt="900x500" src={dlm3} />
+                  <img className="carousel-image"  alt="900x500" src={dlm3} />
                 </Carousel.Item>
               </Carousel>
               <div className="project-info">
-                <h4>This application was built for internal use within the company. It mimics the functionality of CAD editor, with extra functionality specifically tailored towards use within the company. It features two apps, one desktop app built with WPF, and one web app built with Blazor. Both share an ASP.NET backend, of which I was responsible for several key elements, including error handling and populating product lists. </h4>
+                <h4>This application was built for internal use within the company. It mimics the functionality of CAD editor, with extra functionality specifically tailored towards use within the company. It features two apps, one desktop app built with WPF, and one web app built with Blazor. Both share an ASP.NET backend, of which I was responsible for several key elements, including error handling and populating product lists. On the web side, I was responsible for major refactoring of the code structure. Originally it was not utilizing the full potential of Blazor, being a library capable of making Single-Page-Applications. I began major refactoring of everything to take advantage of this capability. </h4>
                 <h4>Tech stack: Blazor, WPF, C#, ASP.NET</h4>
-                <div className="logocontainer">
-                  <a href="https://tlaunch.com">
-                    <img className="githublogo" src={internet} alt="internet icon" />
-                  </a>
-                </div>
               </div>
             </div>
 
@@ -216,10 +211,10 @@ class App extends Component {
             <div className="applewrap">
               <Carousel>
                 <Carousel.Item>
-                  <img width={1200} alt="900x500" src={tlaunch1} />
+                  <img className="carousel-image"  alt="900x500" src={tlaunch1} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width={1200} alt="900x500" src={tlaunch2} />
+                  <img className="carousel-image"  alt="900x500" src={tlaunch2} />
                 </Carousel.Item>
               </Carousel>
               <div className="project-info">
@@ -237,13 +232,13 @@ class App extends Component {
             <div className="applewrap">
               <Carousel>
                 <Carousel.Item>
-                  <img width={1200} alt="900x500" src={apple1} />
+                  <img className="carousel-image"  alt="900x500" src={apple1} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width={1200} alt="900x500" src={apple2} />
+                  <img className="carousel-image"  alt="900x500" src={apple2} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width={1200} alt="900x500" src={apple3} />
+                  <img className="carousel-image"  alt="900x500" src={apple3} />
                 </Carousel.Item>
               </Carousel>
               <div className="project-info">
@@ -264,16 +259,16 @@ class App extends Component {
             <div className="applewrap">
               <Carousel>
                 <Carousel.Item>
-                  <img width={1200} alt="900x500" src={trasset1} />
+                  <img className="carousel-image" alt="900x500" src={trasset1} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width={1200} alt="900x500" src={trasset2} />
+                  <img className="carousel-image" alt="900x500" src={trasset2} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width={1200} alt="900x500" src={trasset3} />
+                  <img className="carousel-image" alt="900x500" src={trasset3} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width={1200} alt="900x500" src={trasset4} />
+                  <img className="carousel-image" alt="900x500" src={trasset4} />
                 </Carousel.Item>
               </Carousel>
               <div className="project-info">
