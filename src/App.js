@@ -15,6 +15,12 @@ import illustrator from './adobeillustrator.png'
 import ae from './aftereffects.png'
 import flash from './adobeflash.png'
 import vue from './vuelogo.png'
+import blazor from './BrandBlazor_nohalo_1000x.png'
+import csharp from './csharp.png'
+import dlm1 from '.Screen Shot 2020-03-31 at 11.02.54.png'
+import dlm2 from '.Screen Shot 2020-03-31 at 11.03.24.png'
+import dlm3 from '.Screen Shot 2020-03-31 at 11.04.21.png'
+import dotnet from './1024px-.NET_Core_Logo.svg.png'
 import apple1 from './Screen Shot 2019-01-22 at 14.47.44.png'
 import apple2 from './Screen Shot 2019-01-22 at 14.48.05.png'
 import apple3 from './Screen Shot 2019-01-22 at 14.49.54.png'
@@ -69,7 +75,7 @@ class App extends Component {
           <div className="aboutme">
             <h3 className="title3">About Me</h3>
             <div className="aboutwrap">
-              <h4 className="abouttext">My name is Jared Choate, and I am a Full-stack Web Developer. I am from northern California and currently living in Utah. I enjoy doing many things, but mainly spending time with my wife. We like driving and exploring the mountains.<br /><br /> After deciding to make a change in my life/career path, I attended DevMountain where I learned the skills necessary to be valuable. Since then, my life has changed. I'm currently a Quality Assurance Engineer / Product Manager for DevSquad.  </h4>
+              <h4 className="abouttext">My name is Jared Choate, and I am a Full-stack Web Developer. I am from northern California and currently living in Utah. I enjoy doing many things, but mainly spending time with my wife. We like driving and exploring the mountains.<br /><br /> After deciding to make a change in my life/career path, I attended DevMountain where I learned the skills necessary to be valuable. Since then, my life has changed. I now have over a year of experience, most recently working as a Software Engineer for Legrand, North America, specializing in Blazor on the web team.  </h4>
               <img className="pic" src={pic} alt="Me" />
             </div>
           </div>
@@ -79,6 +85,7 @@ class App extends Component {
           <ScrollableAnchor id={'skills'}>
             <h3 className="title3 skilltitle">My Skills</h3>
           </ScrollableAnchor>
+          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="555d7466-a716-4742-b38e-5217479a2859" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
           {/********************** ADOBE SOFTWARE **********************************************/}
           <div className="logos" id="ADOBE">
             <div>
@@ -101,6 +108,11 @@ class App extends Component {
           </div>
           {/****************************** FRAMEWORKS ******************************************/}
           <div className="logos" id='FRAMEWORKS'>
+            <div>
+              <img className="logosimg" src={blazor} alt="laravel" />
+              <p>Blazor</p>
+            </div>
+
             <div>
               <img className="logosimg" src={laravel} alt="laravel" />
               <p>Laravel</p>
@@ -127,6 +139,10 @@ class App extends Component {
               <p>Javascript</p>
             </div>
             <div>
+              <img className="logosimg" src={csharp} alt="c sharp" />
+              <p>C#</p>
+            </div>
+            <div>
               <img className="logosimg" src={php} />
               <p>PHP</p>
             </div>
@@ -141,6 +157,10 @@ class App extends Component {
           </div>
           {/*********************************** EXTRAS *************************************/}
           <div className="logos">
+            <div>
+              <img className="logosimg" src={dotnet} alt="dot net" />
+              <p>.NET</p>
+            </div>
             <div>
               <img className="logosimg" src={node} alt="node" />
               <p>Node</p>
@@ -167,6 +187,31 @@ class App extends Component {
           <div className="project-list">
           </div>
           <div className="appleproject">
+
+          <h4 className="appletitle">DLM Designer</h4>
+            <div className="applewrap">
+              <Carousel>
+                <Carousel.Item>
+                  <img width={1200} alt="900x500" src={dlm1} />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img width={1200} alt="900x500" src={dlm2} />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img width={1200} alt="900x500" src={dlm3} />
+                </Carousel.Item>
+              </Carousel>
+              <div className="project-info">
+                <h4>This application was built for internal use within the company. It mimics the functionality of CAD editor, with extra functionality specifically tailored towards use within the company. It features two apps, one desktop app built with WPF, and one web app built with Blazor. Both share an ASP.NET backend, of which I was responsible for several key elements, including error handling and populating product lists. </h4>
+                <h4>Tech stack: Blazor, WPF, C#, ASP.NET</h4>
+                <div className="logocontainer">
+                  <a href="https://tlaunch.com">
+                    <img className="githublogo" src={internet} alt="internet icon" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
           <h4 className="appletitle">tLaunch</h4>
             <div className="applewrap">
               <Carousel>
@@ -187,6 +232,7 @@ class App extends Component {
                 </div>
               </div>
             </div>
+
             <h4 className="appletitle">Apple Clone</h4>
             <div className="applewrap">
               <Carousel>
@@ -213,6 +259,7 @@ class App extends Component {
                 </div>
               </div>
             </div>
+            
             <h4 className="appletitle">Trassets (personal finance tracker)</h4>
             <div className="applewrap">
               <Carousel>
